@@ -1,15 +1,16 @@
-# pow
+# gleamy_lights
 
-[![Package Version](https://img.shields.io/hexpm/v/pow)](https://hex.pm/packages/pow)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/pow/)
+[![Package Version](https://img.shields.io/hexpm/v/gleamy_lights)](https://hex.pm/packages/gleamy_lights)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gleamy_lights/)
 
 Colored terminal output for Gleam.
 
 ```sh
-gleam add pow@1
+gleam add gleamy_lights@1
 ```
+
 ```gleam
-import pow.{red, green, blue}
+import gleamy_lights.{red, green, blue}
 import gleam/io
 
 pub fn main() {
@@ -17,7 +18,7 @@ pub fn main() {
 }
 ```
 
-Further documentation can be found at <https://hexdocs.pm/pow>.
+Further documentation can be found at <https://hexdocs.pm/gleamy_lights>.
 
 ## Development
 
