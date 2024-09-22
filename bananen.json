@@ -31,19 +31,23 @@
     }
   },
   "saved_changes": {
-    "unreleased": [
-      {
-        "contents": "Move premixes into own module",
-        "type": 2,
-        "breaking": true
-      },
-      {
-        "contents": "Added Gleam color palette",
-        "type": 1,
-        "breaking": false
-      }
-    ],
+    "unreleased": [],
     "released": [
+      {
+        "name": "2.0.0",
+        "changes": [
+          {
+            "contents": "Move premixes into own module",
+            "type": 2,
+            "breaking": true
+          },
+          {
+            "contents": "Added Gleam color palette",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      },
       {
         "name": "1.1.0",
         "changes": [
