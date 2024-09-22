@@ -1,0 +1,54 @@
+{
+  "main": {
+    "bananen_version": "0.1.8",
+    "bananendata_version": 3
+  },
+  "config": {
+    "changelogfile": "changelog.md",
+    "rollingrelease": false,
+    "customisation": {
+      "log_name": "Changelog",
+      "released_name": "Releases",
+      "unreleased_name": "Unreleased changes",
+      "changetypes": {
+        "addition": {
+          "translation": "Addition",
+          "color": "#336600"
+        },
+        "removal": {
+          "translation": "Removal",
+          "color": "#ff0000"
+        },
+        "update": {
+          "translation": "Update",
+          "color": "#0033cc"
+        },
+        "fix": {
+          "translation": "Update",
+          "color": "#9900cc"
+        }
+      }
+    }
+  },
+  "saved_changes": {
+    "unreleased": [
+      {
+        "contents": "Background support",
+        "type": 1,
+        "breaking": false
+      }
+    ],
+    "released": [
+      {
+        "name": "1.0.0",
+        "changes": [
+          {
+            "contents": "initial release",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      }
+    ]
+  }
+}
