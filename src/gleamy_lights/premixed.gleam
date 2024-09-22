@@ -1,4 +1,6 @@
-//// Pre-mixed colors
+//// # Pre-mixed colors
+////
+//// A palette of pre-mixed colors, that I used before.
 
 import gleamy_lights.{by_rgb, by_rgb_bg}
 

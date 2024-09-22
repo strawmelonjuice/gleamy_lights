@@ -31,7 +31,13 @@
     }
   },
   "saved_changes": {
-    "unreleased": [],
+    "unreleased": [
+      {
+        "contents": "Documentation issues solved",
+        "type": 3,
+        "breaking": false
+      }
+    ],
     "released": [
       {
         "name": "2.0.0",

@@ -1,17 +1,28 @@
-//// `# Gleam colors
+//// # Gleam colors
+////
 //// Especially colored after Gleam's color palette.
 ////
 //// `#ffaff3` - Faff Pink
+////
 //// `#fefefc` - White
+////
 //// `#a6f0fc` - Unnamed Blue
+////
 //// `#fffbe8` - Aged Plastic Yellow
+////
 //// `#584355` - Unexpected Aubergine
+////
 //// `#292d3e` - Underwater Blue
+////
 //// `#2f2f2f` - Charcoal
+////
 //// `#1e1e1e` - Black
+////
 //// `#151515` - Blacker
 ////
-//// See: https://gleam.run/branding/
+////
+////
+//// See: <https://gleam.run/branding/>
 
 import gleamy_lights.{by_hexcolor, by_hexcolor_bg}
 

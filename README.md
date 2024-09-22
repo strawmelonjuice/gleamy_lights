@@ -10,11 +10,24 @@ gleam add gleamy_lights@2
 ```
 
 ```gleam
-import gleamy_lights.{red, green, blue}
 import gleam/io
+import gleamy_lights
+import gleamy_lights/premixed.{bg_green, text_orange}
+import gleamy_lights/premixed/gleam_colors
 
 pub fn main() {
-  io.println(red("Hello, ") <> green("world") <> blue("!"))
+  io.println(
+    text_orange("Hello, ")
+    <> gleamy_lights.by_hexcolor_bg("world", "#aa88ff")
+    <> bg_green("!"),
+  )
+  io.println(
+    "This is a "
+    <> gleam_colors.bg_underwater_blue_gl(gleam_colors.text_faff_pink_gl(
+      "gleamy",
+    ))
+    <> " world.",
+  )
 }
 ```
 
