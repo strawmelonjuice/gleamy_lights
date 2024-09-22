@@ -31,14 +31,18 @@
     }
   },
   "saved_changes": {
-    "unreleased": [
-      {
-        "contents": "Documentation issues solved",
-        "type": 3,
-        "breaking": false
-      }
-    ],
+    "unreleased": [],
     "released": [
+      {
+        "name": "2.0.1",
+        "changes": [
+          {
+            "contents": "Documentation issues solved",
+            "type": 3,
+            "breaking": false
+          }
+        ]
+      },
       {
         "name": "2.0.0",
         "changes": [

@@ -4,11 +4,14 @@
 
 ## Unreleased changes
             
--  **<span style="color: #9900cc">Update</span>**: Documentation issues solved
-
+No unreleased changes.
 
 ## Releases
 
+
+
+### 2.0.1
+-  **<span style="color: #9900cc">Update</span>**: Documentation issues solved
 
 
 ### 2.0.0
