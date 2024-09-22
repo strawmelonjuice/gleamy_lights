@@ -6,7 +6,7 @@
 Colored terminal output for Gleam.
 
 ```sh
-gleam add gleamy_lights@1
+gleam add gleamy_lights@2
 ```
 
 ```gleam
