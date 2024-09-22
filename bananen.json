@@ -31,19 +31,23 @@
     }
   },
   "saved_changes": {
-    "unreleased": [
-      {
-        "contents": "Background support",
-        "type": 1,
-        "breaking": false
-      },
-      {
-        "contents": "Hex support",
-        "type": 1,
-        "breaking": false
-      }
-    ],
+    "unreleased": [],
     "released": [
+      {
+        "name": "1.1.0",
+        "changes": [
+          {
+            "contents": "Background support",
+            "type": 1,
+            "breaking": false
+          },
+          {
+            "contents": "6-digit hex color support",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      },
       {
         "name": "1.0.0",
         "changes": [

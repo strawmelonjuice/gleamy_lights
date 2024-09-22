@@ -4,13 +4,16 @@
 
 ## Unreleased changes
 
--  **<span style="color: #336600">Addition</span>**: Hex support
-
--  **<span style="color: #336600">Addition</span>**: Background support
-
+No unreleased changes.
 
 ## Releases
 
+
+
+### 1.1.0
+-  **<span style="color: #336600">Addition</span>**: 6-digit hex color support
+
+-  **<span style="color: #336600">Addition</span>**: Background support
 
 
 ### 1.0.0
