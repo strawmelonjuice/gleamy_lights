@@ -36,6 +36,11 @@
         "contents": "Background support",
         "type": 1,
         "breaking": false
+      },
+      {
+        "contents": "Hex support",
+        "type": 1,
+        "breaking": false
       }
     ],
     "released": [

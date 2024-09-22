@@ -7,6 +7,7 @@ version = "1.0.0"
 description = "Colored terminal output for Gleam."
 licences = ["Apache-2.0"]
 repository = { type = "github", user = "strawmelonjuice", repo = "gleamy_lights" }
+gleam = ">= 0.32.0"
 # links = [{ title = "Website", href = "" }]
 #
 # For a full reference of all the available options, you can have a look at
