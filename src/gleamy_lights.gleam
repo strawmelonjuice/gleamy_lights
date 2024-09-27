@@ -1,3 +1,4 @@
+import envoy
 import gleam/int
 import gleam/list
 import gleam/string
@@ -8,16 +9,24 @@ import gleam/string
 /// Given a message and an RGB color, return the message with the color applied.
 /// The RGB values should be between 0 and 255.
 pub fn by_rgb(msg: String, r: Int, g: Int, b: Int) -> String {
-  // format!("\x1b[38;2;{};{};{}m{}\x1b[0m", r, g, b, self)
-  "\u{001b}[38;2;"
-  <> int.to_string(r)
-  <> ";"
-  <> int.to_string(g)
-  <> ";"
-  <> int.to_string(b)
-  <> "m"
-  <> msg
-  <> "\u{001b}[0m"
+  case envoy.get("NO_COLOR") {
+    Ok("1") -> {
+      // If NO_COLOR is set, make sure no alterations are done.
+      msg
+    }
+    _ -> {
+      // format!("\x1b[38;2;{};{};{}m{}\x1b[0m", r, g, b, self)
+      "\u{001b}[38;2;"
+      <> int.to_string(r)
+      <> ";"
+      <> int.to_string(g)
+      <> ";"
+      <> int.to_string(b)
+      <> "m"
+      <> msg
+      <> "\u{001b}[0m"
+    }
+  }
 }
 
 /// # By RGB - Background

@@ -34,6 +34,16 @@
     "unreleased": [],
     "released": [
       {
+        "name": "2.0.2",
+        "changes": [
+          {
+            "contents": "Support for `NO_COLOR`, allowing users to disable gleamy_lights alterations to strings with just a single env var.",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      },
+      {
         "name": "2.0.1",
         "changes": [
           {
