@@ -20,6 +20,11 @@
 //// <li><p><a href="/gleamy_lights/gleamy_lights#by_hexcolour"><code>by_hexcolour</code></a></p>
 //// </li>
 //// </ul>
+//// <h2 class="atx" id="premix-pallettes">Helpers</h2>
+//// <p>Helper functions</p>
+//// <ul>
+//// <li><p><a href="/gleamy_lights/gleamy_lights/helper#println"><code>println</code></a></p>
+//// </li>
 //// <h2 class="atx" id="premix-pallettes">Premix pallettes</h2>
 //// <p>These are modules within gleamy_lights allowing you to use a modifier with no need to enter the colour codes.</p>
 //// <ul>
@@ -178,3 +183,4 @@ pub fn by_hexcolour_bg(msg: String, hexcolour: String) -> String {
     |> list.first()
   msg |> by_rgb_bg(r, g, b)
 }
+

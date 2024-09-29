@@ -10,6 +10,10 @@ No unreleased changes.
 
 
 
+### 2.2.0
+-  **<span style="color: #ffaff3">Addition</span>**: Added a `helper.println` function, allowing wider compatibility with for example browsers!
+
+
 ### 2.1.0
 -  **<span style="color: #0060df">Removal</span>**: Remove `_gl` suffix on the gleam pallette
 -  **<span style="color: #a6f0fc">Update</span>**: Docs: Now using a more gleamy-color pallette.

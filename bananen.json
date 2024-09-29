@@ -34,6 +34,16 @@
     "unreleased": [],
     "released": [
       {
+        "name": "2.2.0",
+        "changes": [
+          {
+            "contents": "Added a `helper.println` function, allowing wider compatibility with for example browsers!",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      },
+      {
         "name": "2.1.0",
         "changes": [
           {
