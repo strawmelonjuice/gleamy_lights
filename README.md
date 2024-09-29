@@ -13,17 +13,17 @@ gleam add gleamy_lights@2
 import gleam/io
 import gleamy_lights
 import gleamy_lights/premixed.{bg_green, text_orange}
-import gleamy_lights/premixed/gleam_colors
+import gleamy_lights/premixed/gleam_colours
 
 pub fn main() {
   io.println(
     text_orange("Hello, ")
-    <> gleamy_lights.by_hexcolor_bg("world", "#aa88ff")
+    <> gleamy_lights.by_hexcolour_bg("world", "#aa88ff")
     <> bg_green("!"),
   )
   io.println(
     "This is a "
-    <> gleam_colors.bg_underwater_blue_gl(gleam_colors.text_faff_pink_gl(
+    <> gleam_colours.bg_underwater_blue(gleam_colours.text_faff_pink(
       "gleamy",
     ))
     <> " world.",
