@@ -10,28 +10,33 @@ No unreleased changes.
 
 
 
+### 2.1.0
+-  **<span style="color: #0060df">Removal</span>**: Remove `_gl` suffix on the gleam pallette
+-  **<span style="color: #a6f0fc">Update</span>**: Docs: Now using a more gleamy-color pallette.
+-  **<span style="color: #ffaff3">Addition</span>**: Gleam community color support
+-  **<span style="color: #a6f0fc">Update</span>**: `NO_COLOR` variable can be any value now.
+-  **<span style="color: #ff9d35">Fix</span>**: My previous Americanisations are now rectified. (This <span style="color: red; background-color: #ffcc00">breaks</span> the gleam pallette path.)
+
+
 ### 2.0.2
--  **<span style="color: #336600">Addition</span>**: Support for `NO_COLOR`, allowing users to disable gleamy_lights alterations to strings with just a single env var.
+-  **<span style="color: #ffaff3">Addition</span>**: Support for `NO_COLOR`, allowing users to disable gleamy_lights alterations to strings with just a single env var.
 
 
 ### 2.0.1
--  **<span style="color: #9900cc">Update</span>**: Documentation issues solved
 
 
 ### 2.0.0
--  **<span style="color: #336600">Addition</span>**: Added Gleam color palette
-
-- <span style="color: red; background-color: #ffcc00">BREAKING!</span> **<span style="color: #0033cc">Update</span>**: Move premixes into own module
+-  **<span style="color: #ffaff3">Addition</span>**: Added Gleam color palette
+- <span style="color: red; background-color: #ffcc00">BREAKING!</span> **<span style="color: #a6f0fc">Update</span>**: Move premixes into own module
 
 
 ### 1.1.0
--  **<span style="color: #336600">Addition</span>**: 6-digit hex color support
-
--  **<span style="color: #336600">Addition</span>**: Background support
+-  **<span style="color: #ffaff3">Addition</span>**: 6-digit hex color support
+-  **<span style="color: #ffaff3">Addition</span>**: Background support
 
 
 ### 1.0.0
--  **<span style="color: #336600">Addition</span>**: initial release
+-  **<span style="color: #ffaff3">Addition</span>**: initial release
 
 
 <hr>

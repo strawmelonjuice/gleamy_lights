@@ -13,19 +13,19 @@
       "changetypes": {
         "addition": {
           "translation": "Addition",
-          "color": "#336600"
+          "color": "#ffaff3"
         },
         "removal": {
           "translation": "Removal",
-          "color": "#ff0000"
+          "color": "#0060df"
         },
         "update": {
           "translation": "Update",
-          "color": "#0033cc"
+          "color": "#a6f0fc"
         },
         "fix": {
-          "translation": "Update",
-          "color": "#9900cc"
+          "translation": "Fix",
+          "color": "#ff9d35"
         }
       }
     }
@@ -33,6 +33,36 @@
   "saved_changes": {
     "unreleased": [],
     "released": [
+      {
+        "name": "2.1.0",
+        "changes": [
+          {
+            "contents": "My previous Americanisations are now rectified. (This <span style=\"color: red; background-color: #ffcc00\">breaks</span> the gleam pallette path.)",
+            "type": 3,
+            "breaking": false
+          },
+          {
+            "contents": "`NO_COLOR` variable can be any value now.",
+            "type": 2,
+            "breaking": false
+          },
+          {
+            "contents": "Gleam community color support",
+            "type": 1,
+            "breaking": false
+          },
+          {
+            "contents": "Docs: Now using a more gleamy-color pallette.",
+            "type": 2,
+            "breaking": false
+          },
+          {
+            "contents": "Remove `_gl` suffix on the gleam pallette",
+            "type": 4,
+            "breaking": false
+          }
+        ]
+      },
       {
         "name": "2.0.2",
         "changes": [
@@ -45,13 +75,7 @@
       },
       {
         "name": "2.0.1",
-        "changes": [
-          {
-            "contents": "Documentation issues solved",
-            "type": 3,
-            "breaking": false
-          }
-        ]
+        "changes": []
       },
       {
         "name": "2.0.0",
