@@ -1,5 +1,5 @@
 name = "gleamy_lights"
-version = "2.2.0"
+version = "2.2.1"
 
 # Fill out these fields if you intend to generate HTML documentation or publish
 # your project to the Hex package manager.
@@ -21,4 +21,6 @@ gleam_community_colour = ">= 1.4.0 and < 2.0.0"
 [dev-dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
 [documentation]
-pages = [{ title = "CHANGELOG", path = "changelog.html", source = "./changelog.md" }]
+pages = [
+  { title = "CHANGELOG", path = "changelog.html", source = "./changelog.md" },
+]

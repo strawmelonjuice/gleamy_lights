@@ -34,6 +34,12 @@
 //// </li>
 //// </ul>
 
+import gleam/io
+
+pub fn main() {
+  io.println(by_rgb_bg("Hello, world!", 255, 0, 0))
+}
+
 import envoy
 import gleam/int
 import gleam/list
@@ -93,15 +99,29 @@ pub fn by_rgb(msg: String, r: Int, g: Int, b: Int) -> String {
 /// Given a string and an RGB colour, return the message with the background colour applied.
 /// The RGB values should be between 0 and 255.
 pub fn by_rgb_bg(msg: String, r: Int, g: Int, b: Int) -> String {
-  "\u{001b}[48;2;"
-  <> int.to_string(r)
-  <> ";"
-  <> int.to_string(g)
-  <> ";"
-  <> int.to_string(b)
-  <> "m"
-  <> msg
-  <> "\u{001b}[0m"
+  let f = fn() {
+    "\u{001b}[48;2;"
+    <> int.to_string(r)
+    <> ";"
+    <> int.to_string(g)
+    <> ";"
+    <> int.to_string(b)
+    <> "m"
+    <> msg
+    <> "\u{001b}[0m"
+  }
+  case envoy.get("NO_COLOR") {
+    Ok("") -> {
+      f()
+    }
+    Ok(_) -> {
+      // If NO_COLOR is set, make sure no alterations are done.
+      msg
+    }
+    _ -> {
+      f()
+    }
+  }
 }
 
 /// (Internal) Convert a hex color to an RGB list.
@@ -183,4 +203,3 @@ pub fn by_hexcolour_bg(msg: String, hexcolour: String) -> String {
     |> list.first()
   msg |> by_rgb_bg(r, g, b)
 }
-

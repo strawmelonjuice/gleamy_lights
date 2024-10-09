@@ -10,6 +10,10 @@ No unreleased changes.
 
 
 
+### 2.2.1
+-  **<span style="color: #ff9d35">Fix</span>**: Background colour ignoring the NO_COLOR env var
+
+
 ### 2.2.0
 -  **<span style="color: #ffaff3">Addition</span>**: Added a `helper.println` function, allowing wider compatibility with for example browsers!
 
