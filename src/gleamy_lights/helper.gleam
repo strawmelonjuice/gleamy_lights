@@ -10,6 +10,7 @@ import gleam/io
 /// There's no need to use this function then.
 ///
 /// Note: Nested colours are not supported.
+@deprecated("Use the console module instead.")
 @external(javascript, "../ffi.mjs", "cstdoutln")
 pub fn println(str: String) -> Nil {
   // On Erlang, a console is guaranteed to be available.
