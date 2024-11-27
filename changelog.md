@@ -10,6 +10,10 @@ No unreleased changes.
 
 
 
+### 2.3.0
+-  **<span style="color: #a6f0fc">Update</span>**: Deprecated `helper` module in favour of `console` module.
+
+
 ### 2.2.1
 -  **<span style="color: #ff9d35">Fix</span>**: Background colour ignoring the NO_COLOR env var
 

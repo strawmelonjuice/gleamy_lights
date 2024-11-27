@@ -1,143 +1,152 @@
 {
-	"main": {
-		"bananen_version": "0.1.8",
-		"bananendata_version": 3
-	},
-	"config": {
-		"changelogfile": "changelog.md",
-		"rollingrelease": false,
-		"customisation": {
-			"log_name": "Changelog",
-			"released_name": "Releases",
-			"unreleased_name": "Unreleased changes",
-			"changetypes": {
-				"addition": {
-					"translation": "Addition",
-					"color": "#ffaff3"
-				},
-				"removal": {
-					"translation": "Removal",
-					"color": "#0060df"
-				},
-				"update": {
-					"translation": "Update",
-					"color": "#a6f0fc"
-				},
-				"fix": {
-					"translation": "Fix",
-					"color": "#ff9d35"
-				}
-			}
-		}
-	},
-	"saved_changes": {
-		"unreleased": [],
-		"released": [
-			{
-				"name": "2.2.1",
-				"changes": [
-					{
-						"contents": "Background colour ignoring the NO_COLOR env var",
-						"type": 3,
-						"breaking": false
-					}
-				]
-			},
-			{
-				"name": "2.2.0",
-				"changes": [
-					{
-						"contents": "Added a `helper.println` function, allowing wider compatibility with for example browsers!",
-						"type": 1,
-						"breaking": false
-					}
-				]
-			},
-			{
-				"name": "2.1.0",
-				"changes": [
-					{
-						"contents": "My previous Americanisations are now rectified. (This <span style=\"color: red; background-color: #ffcc00\">breaks</span> the gleam pallette path.)",
-						"type": 3,
-						"breaking": false
-					},
-					{
-						"contents": "`NO_COLOR` variable can be any value now.",
-						"type": 2,
-						"breaking": false
-					},
-					{
-						"contents": "Gleam community color support",
-						"type": 1,
-						"breaking": false
-					},
-					{
-						"contents": "Docs: Now using a more gleamy-color pallette.",
-						"type": 2,
-						"breaking": false
-					},
-					{
-						"contents": "Remove `_gl` suffix on the gleam pallette",
-						"type": 4,
-						"breaking": false
-					}
-				]
-			},
-			{
-				"name": "2.0.2",
-				"changes": [
-					{
-						"contents": "Support for `NO_COLOR`, allowing users to disable gleamy_lights alterations to strings with just a single env var.",
-						"type": 1,
-						"breaking": false
-					}
-				]
-			},
-			{
-				"name": "2.0.1",
-				"changes": []
-			},
-			{
-				"name": "2.0.0",
-				"changes": [
-					{
-						"contents": "Move premixes into own module",
-						"type": 2,
-						"breaking": true
-					},
-					{
-						"contents": "Added Gleam color palette",
-						"type": 1,
-						"breaking": false
-					}
-				]
-			},
-			{
-				"name": "1.1.0",
-				"changes": [
-					{
-						"contents": "Background support",
-						"type": 1,
-						"breaking": false
-					},
-					{
-						"contents": "6-digit hex color support",
-						"type": 1,
-						"breaking": false
-					}
-				]
-			},
-			{
-				"name": "1.0.0",
-				"changes": [
-					{
-						"contents": "initial release",
-						"type": 1,
-						"breaking": false
-					}
-				]
-			}
-		]
-	}
+  "main": {
+    "bananen_version": "0.1.8",
+    "bananendata_version": 3
+  },
+  "config": {
+    "changelogfile": "changelog.md",
+    "rollingrelease": false,
+    "customisation": {
+      "log_name": "Changelog",
+      "released_name": "Releases",
+      "unreleased_name": "Unreleased changes",
+      "changetypes": {
+        "addition": {
+          "translation": "Addition",
+          "color": "#ffaff3"
+        },
+        "removal": {
+          "translation": "Removal",
+          "color": "#0060df"
+        },
+        "update": {
+          "translation": "Update",
+          "color": "#a6f0fc"
+        },
+        "fix": {
+          "translation": "Fix",
+          "color": "#ff9d35"
+        }
+      }
+    }
+  },
+  "saved_changes": {
+    "unreleased": [],
+    "released": [
+      {
+        "name": "2.3.0",
+        "changes": [
+          {
+            "contents": "Deprecated `helper` module in favour of `console` module.",
+            "type": 2,
+            "breaking": false
+          }
+        ]
+      },
+      {
+        "name": "2.2.1",
+        "changes": [
+          {
+            "contents": "Background colour ignoring the NO_COLOR env var",
+            "type": 3,
+            "breaking": false
+          }
+        ]
+      },
+      {
+        "name": "2.2.0",
+        "changes": [
+          {
+            "contents": "Added a `helper.println` function, allowing wider compatibility with for example browsers!",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      },
+      {
+        "name": "2.1.0",
+        "changes": [
+          {
+            "contents": "My previous Americanisations are now rectified. (This <span style=\"color: red; background-color: #ffcc00\">breaks</span> the gleam pallette path.)",
+            "type": 3,
+            "breaking": false
+          },
+          {
+            "contents": "`NO_COLOR` variable can be any value now.",
+            "type": 2,
+            "breaking": false
+          },
+          {
+            "contents": "Gleam community color support",
+            "type": 1,
+            "breaking": false
+          },
+          {
+            "contents": "Docs: Now using a more gleamy-color pallette.",
+            "type": 2,
+            "breaking": false
+          },
+          {
+            "contents": "Remove `_gl` suffix on the gleam pallette",
+            "type": 4,
+            "breaking": false
+          }
+        ]
+      },
+      {
+        "name": "2.0.2",
+        "changes": [
+          {
+            "contents": "Support for `NO_COLOR`, allowing users to disable gleamy_lights alterations to strings with just a single env var.",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      },
+      {
+        "name": "2.0.1",
+        "changes": []
+      },
+      {
+        "name": "2.0.0",
+        "changes": [
+          {
+            "contents": "Move premixes into own module",
+            "type": 2,
+            "breaking": true
+          },
+          {
+            "contents": "Added Gleam color palette",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      },
+      {
+        "name": "1.1.0",
+        "changes": [
+          {
+            "contents": "Background support",
+            "type": 1,
+            "breaking": false
+          },
+          {
+            "contents": "6-digit hex color support",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      },
+      {
+        "name": "1.0.0",
+        "changes": [
+          {
+            "contents": "initial release",
+            "type": 1,
+            "breaking": false
+          }
+        ]
+      }
+    ]
+  }
 }
-
